@@ -1,0 +1,1 @@
+docker run --rm -e LOCAL_USER_ID=`id -u $USER` -v $(pwd):/opt/data -p 8077:8080 nestsim/nest:2.20.0 notebook
